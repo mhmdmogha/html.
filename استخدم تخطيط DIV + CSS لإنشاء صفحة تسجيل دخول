@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <!--أعرض مكتبة رمز الخط-->
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+    <body>
+
+        <div class="wrap">
+            <h1>تيسكو مول نظام إدارة المكاتب الخلفية</h1>
+            <form action="">
+                <div class="input-group">
+                    // الشيء الشبيه بالرمز الموجود على يسار مربع الإدخال هو خط
+                    // يمكنك تنزيل ملف font-awesome-4.7.0 عبر الإنترنت ولصقه مباشرة تحت دليل المشروع
+                    <i class="icon-user fa fa-user"></i>
+                    <input type="text" name="" class="form-control" placeholder="الرجاء إدخال اسم مستخدم">
+                </div>
+                <div class="input-group">
+                    <i class="icon-user fa fa-lock"></i>
+                    <input type="password" name="" class="form-control" placeholder="الرجاء إدخال كلمة المرور">
+                </div>
+                <div class="input-group btn-group">
+                    <button>تسجيل الدخول</button>
+                </div>
+            </form>
+            <p>&copy;مجموعة س س&nbsp;حقوق النشر</p>
+        </div>
+
+    </body>
+</html>
